@@ -1,0 +1,31 @@
+* { font-family: 'spoqa han sans';}
+
+.clock {
+    margin: 10% auto 0 auto;
+    text-align: center;
+}
+
+.clock-title {
+    font-size: 100px;
+    font-weight: 100;
+    margin: 0;
+}
+
+.greetings__container {
+    margin: 0 auto;
+    text-align: center;
+    font-size : 40px;
+    font-weight: 100;
+}
+
+.form input {
+    font-size: 40px;
+    font-weight: 100;
+    text-align: center;
+    border: none;
+    border-bottom : 1px solid #7f8c8d;
+}
+
+.hide {
+    display: none;
+}
