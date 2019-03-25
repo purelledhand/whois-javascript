@@ -1,0 +1,48 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/spoqa-han-sans/2.1.2/css/SpoqaHanSans-kr.min.css);
+
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; }
+
+.clock_container {
+    margin : 15% auto 0 auto;
+    text-align: center;
+    width : 400px;
+}
+
+.clock_title {
+    font-size: 80px;
+    font-weight: 100;
+}
+
+.greeting_container {
+    margin : 0 auto;
+    text-align: center;
+}
+
+.greeting_input, .todos_input {
+    border: none;
+    border-bottom: 1px solid #777;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+}
+
+.greeting_title {
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.hide {
+    display: none;
+}
+
+.todos_container {
+    margin : 30px auto;
+    text-align: center;
+}
+
+.todos_list {
+    list-style: none;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0;
+}

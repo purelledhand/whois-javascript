@@ -1,4 +1,4 @@
-const clockTitle = document.querySelector(".clock-title");
+const clockTitle = document.querySelector(".clock_title");
 
 function getTime() {
   const date = new Date();
@@ -7,19 +7,13 @@ function getTime() {
   const seconds = date.getSeconds();
 
   clockTitle.innerText = `${
-    hours>12?`PM ${hours}`:`AM ${hours}`
+    hours>12?`PM ${hours-12}`:`AM ${hours}`
   }:${
     minutes<10?`0${minutes}`:`${minutes}`
   }:${
     seconds<10?`0${seconds}`:`${seconds}`
-  }
-  `;
+  }`;
 }
-
-const test = (name) => {
-  clockTitle.innerText= `name is ${name}`;
-};
-
 
 function init() {
   getTime();
